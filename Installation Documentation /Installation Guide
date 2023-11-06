@@ -1,0 +1,21 @@
+1.Install Node
+
+2. Run Command
+	. npm install -D tailwindcss postcss autoprefixer vite
+	. npx tailwindcss init -p
+
+3. tailwind.config.js file mei jaake-------> content: ["*"]
+
+4. package.json mei gye    ----->  "scripts": {
+   			                              "start":"vite"
+  			                            }
+
+5. main.css file bnani hai usme yeh 3 paste krni hai-:
+	  @tailwind base;
+	  @tailwind components;
+	  @tailwind utilities;
+
+6. Link krni hai main.css html mei
+
+7. To run the code run command
+	      npm run start
