@@ -7,8 +7,8 @@
 3. tailwind.config.js file mei jaake-------> content: ["*"]
 
 4. package.json mei gye    ----->  "scripts": {
-   			                              "start":"vite"
-  			                            }
+   			        	"start":"vite"
+  			            }
 
 5. main.css file bnani hai usme yeh 3 paste krni hai-:
 	  @tailwind base;
